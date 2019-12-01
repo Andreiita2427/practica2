@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.dell.primeraapp4b">
+    package="com.facci.andrealcivar.practica2">
 
     <application
         android:allowBackup="true"
@@ -9,18 +9,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name="com.facci.andrealcivar.practica2.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ActivityLogin" />
-        <activity android:name=".ActivityBuscar" />
-        <activity android:name=".ActivityRegistrar"/>
-        <activity android:name=".ParametroPasar" />
-        <activity android:name=".ParametroRecibir"></activity>
+        <activity android:name="com.facci.andrealcivar.practica2.ActivityLogin" />
+        <activity android:name="com.facci.andrealcivar.practica2.ActivityBuscar" />
+        <activity android:name="com.facci.andrealcivar.practica2.ActivityRegistrar"/>
+        <activity android:name="com.facci.andrealcivar.practica2.ParametroPasar" />
+        <activity android:name="com.facci.andrealcivar.practica2.ParametroRecibir"></activity>
     </application>
 
 </manifest>
